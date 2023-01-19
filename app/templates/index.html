@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+  <h1>Index</h1>
+  <form action="/submit" method="post">
+    <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter descriptive text here..."></textarea>
+    <input type="submit">
+  </form>
+{% endblock %}
